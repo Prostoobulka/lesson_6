@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato-regular.woff2") format("woff2"),
+	url("../fonts/lato-regular.woff") format("woff");
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato-bold.woff2") format("woff2"),
+	url("../fonts/lato-bold.woff") format("woff");
+	font-display: swap;
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato-black.woff2") format("woff2"),
+	url("../fonts/lato-black.woff") format("woff");
+	font-display: swap;
+	font-style: normal;
+	font-weight: 900;
+}
+/* ----------------------------------------------- */
+
+.wrapper.max-width{
+	font-family: "Lato", serif;
+	max-width: 840px;
+	margin: 0 auto;
+	color: #424551;
+	line-height: 1.6;
+	padding: 38px 15px;
+}
+.header {
+	margin: 0 0 60px 0;
+}
+.header__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin: 0 0 40px 0;
+	color: #1E212C;
+}
+.header__img img{
+	max-width: 100%;
+}
+/* ----------------------------------------------- */
+.main {
+	margin: 0 0 24px 0;
+}
+.main__text-vulputate{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+	margin: 0 0 24px 0;
+}
+.main__text-facilisi-amet
+{	
+	margin: 0 0 48px 0;
+}
+.text-facilisi{
+	margin: 0 0 34px 0;
+}
+.main__text-lorem{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0 0 48px 0;
+	padding: 0 0 0 58px;
+}
+.main__text-mauris {
+	margin: 0 0 24px 0;
+}
+.list__item {
+	padding: 0 0 0 32px;
+}	
+/* ----------------------------------------------- */
+
+/* ----------------------Practice------------------------ */
+
+.line{
+	background: #000;
+	max-width: 100%;
+	height: 3px;
+}	
+.wrapper{
+}
+/* ----------------------------------------------- */
+
+.wrapper__inner{
+	font-family: 'Open Sans', sans-serif;
+	max-width: 1000px;
+	margin: 0 auto 50px auto;
+	padding: 15px 15px;
+	font-weight: 700;
+	font-size: 30px;
+
+}
+.practice-blocks{
+	margin: 0 auto;
+	max-width: 618px ;
+	border: 5px dotted #000;
+	
+}
+.practice-blocks--center{
+	margin: 0 auto;
+	max-width: 618px ;
+}
+.practice-blocks__block-1{
+	overflow: hidden;
+	display: inline-block;
+	background: lightblue;
+	width: 300px;
+	height: 300px;
+	box-shadow: inset -26px -13px 43px -8px rgb(128, 0, 107);
+}
+.practice-blocks__block-2{
+	
+	overflow: auto;
+	display: inline-block;
+	background: rgb(212, 168, 23);
+	width: 300px;
+	height: 300px;
+	box-shadow: 20px 9px 24px -2px #000;
+}
+/* ----------------------------------------------- */
+.practice-blocks-2.practice-blocks--center.practice-blocks--visibility.practice-blocks--visibility{
+ /* display: none; */
+}
+.practice-blocks--opacity{
+	opacity: 0.1;
+	transition: 0.2s;
+}
+.practice-blocks--opacity:hover{
+	opacity: 1;
+}
+.practice-blocks--visibility{
+	visibility: hidden;
+}
+.practice-blocks-2 {
+	outline: 4px dotted red;
+}
+.practice-blocks-2__block-1 {
+	display: inline-block;
+	background: rgb(23, 212, 58);
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: auto;
+	text-align: center;
+	padding: 40px;
+}
+.practice-blocks-2__block-2 {
+	display: inline-block;
+	background: rgb(230, 173, 173);
+	width: 300px;
+	height: 300px;
+	border-radius:  63% 37% 27% 73% / 37% 54% 46% 63% ; 
+	overflow: auto;
+	text-align: center;
+	padding: 40px;
+
+}
